@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" width="900" height="350" role="img" aria-label="About and Life Outside Code">
+  <defs>
+    <linearGradient id="al-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.5" />
+    </linearGradient>
+    <linearGradient id="al-aurora" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+    <pattern id="al-dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.045" />
+    </pattern>
+    <style>
+      .al-display { font-family: 'Space Grotesk', system-ui, sans-serif; }
+      .al-mono { font-family: 'JetBrains Mono', monospace; }
+    </style>
+  </defs>
+
+  <!-- LEFT CARD: Fake Browser Window + Capability Rows -->
+  <g>
+    <rect x="1" y="1" width="438" height="348" rx="20" fill="#0d0e16" stroke="url(#al-border)" stroke-width="1.5" />
+    <rect x="1" y="1" width="438" height="348" rx="20" fill="url(#al-dots)" />
+
+    <!-- Browser Window Frame -->
+    <rect x="22" y="22" width="396" height="148" rx="12" fill="#131524" stroke="#ffffff" stroke-opacity="0.1" />
+    <!-- Browser Top Bar -->
+    <path d="M22 34a12 12 0 0 1 12-12h372a12 12 0 0 1 12 12v18H22V34z" fill="#191c30" />
+    <circle cx="38" cy="37" r="4" fill="#f43f5e" />
+    <circle cx="52" cy="37" r="4" fill="#f59e0b" />
+    <circle cx="66" cy="37" r="4" fill="#10b981" />
+    <!-- URL Bar with Blinking Cursor -->
+    <rect x="84" y="28" width="318" height="18" rx="6" fill="#0d0e16" />
+    <text x="94" y="40" class="al-mono" font-size="10" fill="#94a3b8">https://spandan.dev/studio<tspan fill="#22d3ee">|<animate attributeName="opacity" values="1;0;1" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite" /></tspan></text>
+
+    <!-- Browser Viewport Vector Illustration (Code + Design Artboard) -->
+    <rect x="38" y="64" width="165" height="92" rx="8" fill="#0d0e16" stroke="#22d3ee" stroke-opacity="0.25" />
+    <rect x="48" y="75" width="76" height="7" rx="3.5" fill="#22d3ee" opacity="0.8" />
+    <rect x="48" y="89" width="124" height="6" rx="3" fill="#a78bfa" opacity="0.6" />
+    <rect x="48" y="102" width="98" height="6" rx="3" fill="#f472b6" opacity="0.6" />
+    <rect x="48" y="116" width="136" height="28" rx="5" fill="#181b2e" />
+    <text x="56" y="134" class="al-mono" font-size="10" fill="#22d3ee"><canvas /></text>
+
+    <!-- Floating UI Component Preview -->
+    <rect x="218" y="64" width="184" height="92" rx="8" fill="#181b2e" stroke="#a78bfa" stroke-opacity="0.3" />
+    <circle cx="250" cy="96" r="16" fill="url(#al-aurora)" opacity="0.85" />
+    <rect x="276" y="84" width="110" height="8" rx="4" fill="#f8fafc" opacity="0.85" />
+    <rect x="276" y="99" width="78" height="6" rx="3" fill="#94a3b8" />
+    <rect x="234" y="124" width="152" height="18" rx="9" fill="#22d3ee" fill-opacity="0.15" stroke="#22d3ee" stroke-opacity="0.4" />
+    <text x="272" y="136" class="al-mono" font-size="9.5" fill="#22d3ee">UI · DATA · PYTHON</text>
+
+    <!-- Three Capability Rows with Icon Tiles -->
+    <g transform="translate(22, 186)">
+      <!-- Row 1 -->
+      <rect x="0" y="0" width="396" height="44" rx="10" fill="#141726" stroke="#ffffff" stroke-opacity="0.06" />
+      <rect x="8" y="7" width="30" height="30" rx="8" fill="#22d3ee" fill-opacity="0.15" />
+      <path d="M19 17l-5 5 5 5M27 17l5 5-5 5" stroke="#22d3ee" stroke-width="2" fill="none" stroke-linecap="round" />
+      <text x="48" y="20" class="al-display" font-size="13" font-weight="600" fill="#f8fafc">Frontend & Web Design</text>
+      <text x="48" y="34" class="al-mono" font-size="10" fill="#94a3b8">HTML5 · CSS3 · React · Responsive UI</text>
+
+      <!-- Row 2 -->
+      <rect x="0" y="52" width="396" height="44" rx="10" fill="#141726" stroke="#ffffff" stroke-opacity="0.06" />
+      <rect x="8" y="59" width="30" height="30" rx="8" fill="#a78bfa" fill-opacity="0.15" />
+      <circle cx="23" cy="74" r="7" stroke="#a78bfa" stroke-width="2" fill="none" />
+      <text x="48" y="72" class="al-display" font-size="13" font-weight="600" fill="#f8fafc">Python & Big Data</text>
+      <text x="48" y="86" class="al-mono" font-size="10" fill="#94a3b8">Python · Hadoop · Data Pipelines</text>
+
+      <!-- Row 3 -->
+      <rect x="0" y="104" width="396" height="44" rx="10" fill="#141726" stroke="#ffffff" stroke-opacity="0.06" />
+      <rect x="8" y="111" width="30" height="30" rx="8" fill="#f472b6" fill-opacity="0.15" />
+      <path d="M17 131l6-12 6 12H17z" stroke="#f472b6" stroke-width="2" fill="none" stroke-linejoin="round" />
+      <text x="48" y="124" class="al-display" font-size="13" font-weight="600" fill="#f8fafc">CS & AI Foundations</text>
+      <text x="48" y="138" class="al-mono" font-size="10" fill="#94a3b8">BCA @ Techno India University</text>
+    </g>
+  </g>
+
+  <!-- RIGHT CARD: Hobby Carousel (4s per slide, 12s cycle) + 3 Daily Rings -->
+  <g transform="translate(461, 0)">
+    <rect x="1" y="1" width="438" height="348" rx="20" fill="#0d0e16" stroke="url(#al-border)" stroke-width="1.5" />
+    <rect x="1" y="1" width="438" height="348" rx="20" fill="url(#al-dots)" />
+
+    <!-- Instagram-style Segment Progress Bars (3 slides x 4s = 12s) -->
+    <g transform="translate(22, 20)">
+      <rect x="0" y="0" width="126" height="3.5" rx="1.75" fill="#ffffff" fill-opacity="0.15" />
+      <rect x="0" y="0" width="126" height="3.5" rx="1.75" fill="#22d3ee">
+        <animate attributeName="width" values="0;126;126;0" keyTimes="0;0.333;0.99;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+
+      <rect x="135" y="0" width="126" height="3.5" rx="1.75" fill="#ffffff" fill-opacity="0.15" />
+      <rect x="135" y="0" width="0" height="3.5" rx="1.75" fill="#a78bfa">
+        <animate attributeName="width" values="0;0;126;126;0" keyTimes="0;0.333;0.666;0.99;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+
+      <rect x="270" y="0" width="126" height="3.5" rx="1.75" fill="#ffffff" fill-opacity="0.15" />
+      <rect x="270" y="0" width="0" height="3.5" rx="1.75" fill="#f472b6">
+        <animate attributeName="width" values="0;0;126;0" keyTimes="0;0.666;0.99;1" dur="12s" repeatCount="indefinite" />
+      </rect>
+    </g>
+
+    <!-- Carousel Viewport -->
+    <rect x="22" y="34" width="396" height="190" rx="14" fill="#131524" stroke="#ffffff" stroke-opacity="0.08" />
+
+    <!-- Slide 1: Anime -->
+    <g opacity="1">
+      <animate attributeName="opacity" values="1;1;0;0;0;1" keyTimes="0;0.31;0.34;0.96;0.99;1" dur="12s" repeatCount="indefinite" />
+      <circle cx="220" cy="110" r="44" fill="#22d3ee" fill-opacity="0.12" stroke="#22d3ee" stroke-width="1.5" />
+      <path d="M204 104l10 6-10 6M236 104l-10 6 10 6M212 124q8 8 16 0" stroke="#22d3ee" stroke-width="2.2" fill="none" stroke-linecap="round" />
+      <rect x="34" y="182" width="372" height="30" rx="8" fill="#0d0e16" fill-opacity="0.85" />
+      <text x="46" y="201" class="al-mono" font-size="11" fill="#22d3ee">01 / ANIME</text>
+      <text x="130" y="201" class="al-display" font-size="12" fill="#e2e8f0">Shonen arcs, soundtracks & visual storytelling</text>
+    </g>
+
+    <!-- Slide 2: Drawing & Line Art -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.32;0.35;0.64;0.67;1" dur="12s" repeatCount="indefinite" />
+      <circle cx="220" cy="110" r="44" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-width="1.5" />
+      <path d="M202 126l28-28 8 8-28 28-11 3 3-11z" stroke="#a78bfa" stroke-width="2.2" fill="none" stroke-linejoin="round" />
+      <rect x="34" y="182" width="372" height="30" rx="8" fill="#0d0e16" fill-opacity="0.85" />
+      <text x="46" y="201" class="al-mono" font-size="11" fill="#a78bfa">02 / DRAWING</text>
+      <text x="142" y="201" class="al-display" font-size="12" fill="#e2e8f0">Character sketches, clean line art & shading</text>
+    </g>
+
+    <!-- Slide 3: Creative Web Design -->
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.65;0.68;0.97;1" dur="12s" repeatCount="indefinite" />
+      <circle cx="220" cy="110" r="44" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-width="1.5" />
+      <rect x="198" y="92" width="44" height="36" rx="6" stroke="#f472b6" stroke-width="2.2" fill="none" />
+      <circle cx="212" cy="106" r="4" fill="#f472b6" />
+      <rect x="34" y="182" width="372" height="30" rx="8" fill="#0d0e16" fill-opacity="0.85" />
+      <text x="46" y="201" class="al-mono" font-size="11" fill="#f472b6">03 / DESIGN</text>
+      <text x="136" y="201" class="al-display" font-size="12" fill="#e2e8f0">Dark-mode UI experiments & motion craft</text>
+    </g>
+
+    <!-- Three Daily Rings that Fill on Loop (Circumference = 2 * pi * 24 = 150.8) -->
+    <g transform="translate(22, 240)">
+      <!-- Ring 1: Code -->
+      <rect x="0" y="0" width="124" height="88" rx="12" fill="#141726" />
+      <circle cx="62" cy="36" r="22" fill="none" stroke="#22d3ee" stroke-opacity="0.18" stroke-width="4.5" />
+      <circle cx="62" cy="36" r="22" fill="none" stroke="#22d3ee" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="138.2" stroke-dashoffset="22" transform="rotate(-90 62 36)">
+        <animate attributeName="stroke-dashoffset" values="138.2;22;22;138.2" keyTimes="0;0.35;0.9;1" dur="8s" repeatCount="indefinite" />
+      </circle>
+      <text x="62" y="40" text-anchor="middle" class="al-mono" font-size="10" fill="#f8fafc" font-weight="700">85%</text>
+      <text x="62" y="74" text-anchor="middle" class="al-mono" font-size="10" fill="#94a3b8">CODE</text>
+
+      <!-- Ring 2: Sketch -->
+      <rect x="136" y="0" width="124" height="88" rx="12" fill="#141726" />
+      <circle cx="198" cy="36" r="22" fill="none" stroke="#a78bfa" stroke-opacity="0.18" stroke-width="4.5" />
+      <circle cx="198" cy="36" r="22" fill="none" stroke="#a78bfa" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="138.2" stroke-dashoffset="35" transform="rotate(-90 198 36)">
+        <animate attributeName="stroke-dashoffset" values="138.2;35;35;138.2" keyTimes="0;0.45;0.9;1" dur="8s" repeatCount="indefinite" />
+      </circle>
+      <text x="198" y="40" text-anchor="middle" class="al-mono" font-size="10" fill="#f8fafc" font-weight="700">75%</text>
+      <text x="198" y="74" text-anchor="middle" class="al-mono" font-size="10" fill="#94a3b8">SKETCH</text>
+
+      <!-- Ring 3: Anime -->
+      <rect x="272" y="0" width="124" height="88" rx="12" fill="#141726" />
+      <circle cx="334" cy="36" r="22" fill="none" stroke="#f472b6" stroke-opacity="0.18" stroke-width="4.5" />
+      <circle cx="334" cy="36" r="22" fill="none" stroke="#f472b6" stroke-width="4.5" stroke-linecap="round" stroke-dasharray="138.2" stroke-dashoffset="14" transform="rotate(-90 334 36)">
+        <animate attributeName="stroke-dashoffset" values="138.2;14;14;138.2" keyTimes="0;0.55;0.9;1" dur="8s" repeatCount="indefinite" />
+      </circle>
+      <text x="334" y="40" text-anchor="middle" class="al-mono" font-size="10" fill="#f8fafc" font-weight="700">90%</text>
+      <text x="334" y="74" text-anchor="middle" class="al-mono" font-size="10" fill="#94a3b8">ANIME</text>
+    </g>
+  </g>
+</svg>

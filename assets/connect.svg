@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 310" width="900" height="310" role="img" aria-label="Connect with Spandan Das">
+  <defs>
+    <linearGradient id="cn-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.55" />
+    </linearGradient>
+    <linearGradient id="cn-aurora" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="50%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#f472b6" />
+    </linearGradient>
+    <pattern id="cn-dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.045" />
+    </pattern>
+    <style>
+      .cn-display { font-family: 'Space Grotesk', system-ui, sans-serif; }
+      .cn-mono { font-family: 'JetBrains Mono', monospace; }
+      .cn-arrow {
+        animation: cnNudge 1.8s ease-in-out infinite;
+      }
+      @keyframes cnNudge {
+        0%, 100% { transform: translateX(0px); }
+        50% { transform: translateX(5px); }
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="308" rx="20" fill="#0d0e16" stroke="url(#cn-border)" stroke-width="1.5" />
+  <rect x="1" y="1" width="898" height="308" rx="20" fill="url(#cn-dots)" />
+
+  <!-- LEFT: Pointing Character Sticker -->
+  <g>
+    <ellipse cx="195" cy="274" rx="85" ry="12" fill="#22d3ee" opacity="0.16" />
+    
+  </g>
+
+  <!-- RIGHT: Link Cards with Brand Icons & Nudging Arrows -->
+  <g transform="translate(388, 28)">
+    <text x="0" y="16" class="cn-display" font-size="22" font-weight="700" fill="url(#cn-aurora)">Let's Build Something Cool</text>
+    <text x="0" y="36" class="cn-mono" font-size="11.5" fill="#94a3b8">REACH OUT FOR PROJECTS, HACKATHONS OR ANIME TALKS</text>
+
+    <!-- Link Card 1: GitHub -->
+    <a href="https://github.com/Spandan-cyber" target="_blank">
+      <g transform="translate(0, 56)">
+        <rect x="0" y="0" width="474" height="58" rx="14" fill="#131626" stroke="#22d3ee" stroke-opacity="0.35" />
+        <rect x="12" y="11" width="36" height="36" rx="10" fill="#22d3ee" fill-opacity="0.14" />
+        <!-- GitHub Mark -->
+        <path d="M30 20a9 9 0 0 0-2.8 17.5c.4.1.6-.2.6-.4v-1.6c-2.5.5-3-1.1-3-1.1-.4-1-1-1.3-1-1.3-.8-.5.1-.5.1-.5.9.1 1.4.9 1.4.9.8 1.4 2.1 1 2.6.8.1-.6.3-1 .6-1.2-2-.2-4.1-1-4.1-4.4 0-1 .4-1.8.9-2.4-.1-.2-.4-1.1.1-2.4 0 0 .8-.2 2.5.9a8.6 8.6 0 0 1 4.5 0c1.7-1.1 2.5-.9 2.5-.9.5 1.3.2 2.2.1 2.4.6.6.9 1.4.9 2.4 0 3.4-2.1 4.2-4.1 4.4.3.3.6.8.6 1.7v2.5c0 .2.2.5.6.4A9 9 0 0 0 30 20z" fill="#22d3ee" />
+        <text x="62" y="27" class="cn-display" font-size="14" font-weight="700" fill="#f8fafc">GitHub</text>
+        <text x="62" y="43" class="cn-mono" font-size="11" fill="#94a3b8">github.com/Spandan-cyber</text>
+        <text x="442" y="34" class="cn-mono cn-arrow" font-size="16" fill="#22d3ee">→</text>
+      </g>
+    </a>
+
+    <!-- Link Card 2: Email -->
+    <a href="mailto:spandandasom40@gmail.com">
+      <g transform="translate(0, 126)">
+        <rect x="0" y="0" width="474" height="58" rx="14" fill="#131626" stroke="#a78bfa" stroke-opacity="0.35" />
+        <rect x="12" y="11" width="36" height="36" rx="10" fill="#a78bfa" fill-opacity="0.14" />
+        <!-- Mail Icon -->
+        <rect x="21" y="22" width="18" height="14" rx="2.5" fill="none" stroke="#a78bfa" stroke-width="1.8" />
+        <path d="M21 24l9 6 9-6" fill="none" stroke="#a78bfa" stroke-width="1.8" />
+        <text x="62" y="27" class="cn-display" font-size="14" font-weight="700" fill="#f8fafc">Direct Email</text>
+        <text x="62" y="43" class="cn-mono" font-size="11" fill="#94a3b8">spandandasom40@gmail.com</text>
+        <text x="442" y="34" class="cn-mono cn-arrow" style="animation-delay:0.3s" font-size="16" fill="#a78bfa">→</text>
+      </g>
+    </a>
+
+    <!-- Link Card 3: Campus & Location -->
+    <g transform="translate(0, 196)">
+      <rect x="0" y="0" width="474" height="58" rx="14" fill="#131626" stroke="#f472b6" stroke-opacity="0.35" />
+      <rect x="12" y="11" width="36" height="36" rx="10" fill="#f472b6" fill-opacity="0.14" />
+      <circle cx="30" cy="29" r="7" fill="none" stroke="#f472b6" stroke-width="1.8" />
+      <circle cx="30" cy="29" r="2.5" fill="#f472b6" />
+      <text x="62" y="27" class="cn-display" font-size="14" font-weight="700" fill="#f8fafc">Howrah · Kolkata</text>
+      <text x="62" y="43" class="cn-mono" font-size="11" fill="#94a3b8">Techno India University · Open to Team Collabs</text>
+      <text x="442" y="34" class="cn-mono cn-arrow" style="animation-delay:0.6s" font-size="16" fill="#f472b6">→</text>
+    </g>
+  </g>
+</svg>

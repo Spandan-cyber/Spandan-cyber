@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" width="900" height="360" role="img" aria-label="Tech Stack Orbits and Chip Grid">
+  <defs>
+    <linearGradient id="st-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#a78bfa" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0.5" />
+    </linearGradient>
+    <radialGradient id="st-core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.55" />
+      <stop offset="55%" stop-color="#a78bfa" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#0d0e16" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="st-dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.045" />
+    </pattern>
+
+    <!-- Elliptical Orbit Paths centered at (225, 180) -->
+    <path id="st-orbit-inner" d="M 120,180 A 105,38 0 1,1 330,180 A 105,38 0 1,1 120,180" />
+    <path id="st-orbit-mid" d="M 85,180 A 140,52 0 1,1 365,180 A 140,52 0 1,1 85,180" />
+    <path id="st-orbit-outer" d="M 50,180 A 175,66 0 1,1 400,180 A 175,66 0 1,1 50,180" />
+
+    <style>
+      .st-display { font-family: 'Space Grotesk', system-ui, sans-serif; }
+      .st-mono { font-family: 'JetBrains Mono', monospace; }
+      .st-chip {
+        stroke: rgba(255,255,255,0.1);
+        stroke-width: 1.2;
+        animation: stChipPulse 6s infinite;
+      }
+      @keyframes stChipPulse {
+        0%, 100% { stroke: rgba(255,255,255,0.1); }
+        12% { stroke: #22d3ee; }
+        24% { stroke: #a78bfa; }
+        36% { stroke: #f472b6; }
+        48% { stroke: rgba(255,255,255,0.1); }
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="358" rx="20" fill="#0d0e16" stroke="url(#st-border)" stroke-width="1.5" />
+  <rect x="1" y="1" width="898" height="358" rx="20" fill="url(#st-dots)" />
+
+  <!-- LEFT: Tilted Elliptical Orbits + Glowing Core -->
+  <g>
+    <circle cx="225" cy="180" r="95" fill="url(#st-core-glow)" />
+
+    <!-- Orbit 1 (Tilted -24 deg): Python -->
+    <g transform="rotate(-24 225 180)">
+      <ellipse cx="225" cy="180" rx="105" ry="38" fill="none" stroke="#22d3ee" stroke-opacity="0.28" stroke-dasharray="4 4" />
+      <g>
+        <animateMotion dur="9s" repeatCount="indefinite">
+          <mpath href="#st-orbit-inner" />
+        </animateMotion>
+        <g transform="rotate(24)">
+          <circle r="16" fill="#141829" stroke="#22d3ee" stroke-width="1.5" />
+          <!-- Simple Icons: Python glyph -->
+          <path d="M-1-8c-3.3 0-3.1 1.4-3.1 1.4v1.5h3.2v.5h-4.4S-7-4.8-7-1.7s1.8 3 1.8 3h1.1V-.1s-.1-1.8 1.8-1.8h3s1.7 0 1.7-1.6v-2.8S2.7-8-1-8zm-1.7.9a.55.55 0 1 1 0 1.1.55.55 0 0 1 0-1.1z" fill="#22d3ee" />
+          <path d="M1 8c3.3 0 3.1-1.4 3.1-1.4V5.1H.9v-.5h4.4S7 4.8 7 1.7s-1.8-3-1.8-3H4.1V.1s.1 1.8-1.8 1.8h-3s-1.7 0-1.7 1.6v2.8S-2.7 8 1 8zm1.7-.9a.55.55 0 1 1 0-1.1.55.55 0 0 1 0 1.1z" fill="#facc15" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Orbit 2 (Tilted +22 deg): Hadoop -->
+    <g transform="rotate(22 225 180)">
+      <ellipse cx="225" cy="180" rx="140" ry="52" fill="none" stroke="#a78bfa" stroke-opacity="0.28" stroke-dasharray="4 4" />
+      <g>
+        <animateMotion dur="13s" repeatCount="indefinite">
+          <mpath href="#st-orbit-mid" />
+        </animateMotion>
+        <g transform="rotate(-22)">
+          <circle r="16" fill="#141829" stroke="#a78bfa" stroke-width="1.5" />
+          <!-- Simple Icons: Hadoop Elephant silhouette -->
+          <path d="M-6 2v-4c0-3 2.5-5 6-5s6 2 6 5v5h-2v-3H4v3H2v-3h-4v3h-2v-1c-1.5 0-2-1-2-2z" fill="#facc15" />
+        </g>
+      </g>
+    </g>
+
+    <!-- Orbit 3 (Horizontal): React Planet + 2 Orbiting Tool Moons (HTML5 & CSS3) -->
+    <!-- Minimum distance from React to Core = 66px; Moon orbit radius = 32px -> 34px guaranteed clearance -->
+    <g>
+      <ellipse cx="225" cy="180" rx="175" ry="66" fill="none" stroke="#f472b6" stroke-opacity="0.32" />
+      <g>
+        <animateMotion dur="18s" repeatCount="indefinite">
+          <mpath href="#st-orbit-outer" />
+        </animateMotion>
+
+        <!-- React Planet -->
+        <circle r="18" fill="#141829" stroke="#22d3ee" stroke-width="1.6" />
+        <circle r="2.6" fill="#22d3ee" />
+        <ellipse rx="11" ry="4.2" fill="none" stroke="#22d3ee" stroke-width="1.2" />
+        <ellipse rx="11" ry="4.2" fill="none" stroke="#22d3ee" stroke-width="1.2" transform="rotate(60)" />
+        <ellipse rx="11" ry="4.2" fill="none" stroke="#22d3ee" stroke-width="1.2" transform="rotate(120)" />
+
+        <!-- Moon 1: HTML5 (orbits React at r=32px) -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite" />
+          <g transform="translate(32, 0)">
+            <circle r="10" fill="#191d32" stroke="#f97316" stroke-width="1.2" />
+            <text y="3" text-anchor="middle" class="st-mono" font-size="7" font-weight="700" fill="#fb923c">H5</text>
+          </g>
+        </g>
+
+        <!-- Moon 2: CSS3 (orbits React opposite phase at r=32px) -->
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="4s" repeatCount="indefinite" />
+          <g transform="translate(32, 0)">
+            <circle r="10" fill="#191d32" stroke="#38bdf8" stroke-width="1.2" />
+            <text y="3" text-anchor="middle" class="st-mono" font-size="7" font-weight="700" fill="#38bdf8">C3</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Glowing Central Core (rendered above back-orbits, clear of moons) -->
+    <circle cx="225" cy="180" r="28" fill="#121526" stroke="#22d3ee" stroke-width="2">
+      <animate attributeName="r" values="27;30;27" keyTimes="0;0.5;1" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <text x="225" y="177" text-anchor="middle" class="st-mono" font-size="9.5" font-weight="700" fill="#22d3ee">CORE</text>
+    <text x="225" y="189" text-anchor="middle" class="st-mono" font-size="8" fill="#cbd5e1">STACK</text>
+  </g>
+
+  <!-- RIGHT: Grouped Chip Grid (Frontend / Motion & 3D / Data / AI) -->
+  <g transform="translate(455, 28)">
+    <text x="0" y="14" class="st-display" font-size="18" font-weight="700" fill="#f8fafc">Stack & Tooling</text>
+    <text x="0" y="32" class="st-mono" font-size="11" fill="#94a3b8">SEQUENTIAL AURORA CHIP MATRIX</text>
+
+    <!-- Group 1: Frontend -->
+    <text x="0" y="64" class="st-mono" font-size="10.5" fill="#22d3ee">FRONTEND</text>
+    <g transform="translate(0, 72)">
+      <rect x="0" y="0" width="94" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:0s" />
+      <text x="47" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">HTML5</text>
+
+      <rect x="104" y="0" width="94" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:0.4s" />
+      <text x="151" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">CSS3</text>
+
+      <rect x="208" y="0" width="94" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:0.8s" />
+      <text x="255" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">React</text>
+
+      <rect x="312" y="0" width="102" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:1.2s" />
+      <text x="363" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">Web Design</text>
+    </g>
+
+    <!-- Group 2: Motion & 3D -->
+    <text x="0" y="130" class="st-mono" font-size="10.5" fill="#a78bfa">MOTION & 3D</text>
+    <g transform="translate(0, 138)">
+      <rect x="0" y="0" width="128" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:1.6s" />
+      <text x="64" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">SVG + SMIL</text>
+
+      <rect x="138" y="0" width="132" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:2.0s" />
+      <text x="204" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">CSS Keyframes</text>
+
+      <rect x="280" y="0" width="134" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:2.4s" />
+      <text x="347" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">UI Prototyping</text>
+    </g>
+
+    <!-- Group 3: Data -->
+    <text x="0" y="196" class="st-mono" font-size="10.5" fill="#f472b6">DATA</text>
+    <g transform="translate(0, 204)">
+      <rect x="0" y="0" width="128" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:2.8s" />
+      <text x="64" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">Python</text>
+
+      <rect x="138" y="0" width="132" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:3.2s" />
+      <text x="204" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">Hadoop</text>
+
+      <rect x="280" y="0" width="134" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:3.6s" />
+      <text x="347" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">SQL / SQLite</text>
+    </g>
+
+    <!-- Group 4: AI -->
+    <text x="0" y="262" class="st-mono" font-size="10.5" fill="#22d3ee">AI</text>
+    <g transform="translate(0, 270)">
+      <rect x="0" y="0" width="132" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:4.0s" />
+      <text x="66" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">Gemini API</text>
+
+      <rect x="142" y="0" width="132" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:4.4s" />
+      <text x="208" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">Prompt Eng</text>
+
+      <rect x="284" y="0" width="130" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:4.8s" />
+      <text x="349" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">AI Agents</text>
+    </g>
+  </g>
+</svg>
