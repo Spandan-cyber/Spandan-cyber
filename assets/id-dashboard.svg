@@ -29,7 +29,7 @@
     <style>
       .id-display { font-family: 'Space Grotesk', system-ui, sans-serif; }
       .id-mono { font-family: 'JetBrains Mono', monospace; }
-      /* Damped Pendulum Drop & Swing (ends at 0deg so static render is straight) */
+      /* Damped Pendulum Drop and Swing (ends at 0deg so static render is straight) */
       .id-pendulum {
         transform-origin: 130px 0px;
         animation: idSwing 3.4s cubic-bezier(0.25, 1, 0.5, 1) both;
@@ -79,7 +79,7 @@
       <rect x="50" y="284" width="28" height="21" rx="4" fill="url(#id-gold)" />
       <path d="M50 291h28M50 298h28M59 284v21M69 284v21" stroke="#713f12" stroke-width="0.9" />
 
-      <!-- Name & Role -->
+      <!-- Name and Role -->
       <text x="88" y="295" class="id-display" font-size="14" font-weight="700" fill="#f8fafc">Spandan Das</text>
       <text x="88" y="309" class="id-mono" font-size="9.5" fill="#a78bfa">@Spandan-cyber</text>
 
@@ -175,12 +175,12 @@
       <text x="18" y="93" class="id-display" font-size="12.5" fill="#94a3b8">University, Kolkata</text>
 
       <text x="18" y="126" class="id-mono" font-size="10" fill="#a78bfa">BUILDING</text>
-      <text x="18" y="143" class="id-display" font-size="12.5" fill="#e2e8f0">Full-stack apps &</text>
+      <text x="18" y="143" class="id-display" font-size="12.5" fill="#e2e8f0">Full-stack apps and</text>
       <text x="18" y="159" class="id-display" font-size="12.5" fill="#94a3b8">Hadoop data pipelines</text>
 
       <text x="18" y="192" class="id-mono" font-size="10" fill="#f472b6">OFF-SCREEN</text>
       <text x="18" y="209" class="id-display" font-size="12.5" fill="#e2e8f0">Sketching characters</text>
-      <text x="18" y="225" class="id-display" font-size="12.5" fill="#94a3b8">& watching anime</text>
+      <text x="18" y="225" class="id-display" font-size="12.5" fill="#94a3b8">and watching anime</text>
     </g>
   </g>
 </svg>
