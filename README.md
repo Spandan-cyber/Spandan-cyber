@@ -1,18 +1,18 @@
 <div align="center">
 
-<img src="./assets/hero.svg?v=2" alt="Spandan Das Hero" width="100%" />
+<img src="./assets/hero.svg?v=3" alt="Spandan Das Hero" width="100%" />
 
 <br/>
 
-<img src="./assets/about-life.svg?v=2" alt="About & Life Outside Code" width="100%" />
+<img src="./assets/about-life.svg?v=3" alt="About & Life Outside Code" width="100%" />
 
 <br/>
 
-<img src="./assets/stack.svg?v=2" alt="Tech Stack Orbits" width="100%" />
+<img src="./assets/stack.svg?v=3" alt="Tech Stack Orbits" width="100%" />
 
 <br/>
 
-<img src="./assets/id-dashboard.svg?v=2" alt="Developer ID & GitHub Telemetry" width="100%" />
+<img src="./assets/id-dashboard.svg?v=3" alt="Developer ID & GitHub Telemetry" width="100%" />
 
 <br/>
 
@@ -30,13 +30,13 @@
 ### 3D Contribution Skyline (Night View)
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg?v=2" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-view.svg?v=2" />
-  <img alt="3D Contributions Night View" src="./profile-3d-contrib/profile-night-view.svg?v=2" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg?v=3" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-view.svg?v=3" />
+  <img alt="3D Contributions Night View" src="./profile-3d-contrib/profile-night-view.svg?v=3" width="100%" />
 </picture>
 
 <br/>
 
-<img src="./assets/connect.svg?v=2" alt="Connect with Spandan Das" width="100%" />
+<img src="./assets/connect.svg?v=3" alt="Connect with Spandan Das" width="100%" />
 
 </div>
