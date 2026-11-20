@@ -57,21 +57,21 @@
       <rect x="0" y="0" width="396" height="44" rx="10" fill="#141726" stroke="#ffffff" stroke-opacity="0.06" />
       <rect x="8" y="7" width="30" height="30" rx="8" fill="#22d3ee" fill-opacity="0.15" />
       <path d="M19 17l-5 5 5 5M27 17l5 5-5 5" stroke="#22d3ee" stroke-width="2" fill="none" stroke-linecap="round" />
-      <text x="48" y="20" class="al-display" font-size="13" font-weight="600" fill="#f8fafc">Frontend & Web Design</text>
+      <text x="48" y="20" class="al-display" font-size="13" font-weight="600" fill="#f8fafc">Frontend and Web Design</text>
       <text x="48" y="34" class="al-mono" font-size="10" fill="#94a3b8">HTML5 · CSS3 · React · Responsive UI</text>
 
       <!-- Row 2 -->
       <rect x="0" y="52" width="396" height="44" rx="10" fill="#141726" stroke="#ffffff" stroke-opacity="0.06" />
       <rect x="8" y="59" width="30" height="30" rx="8" fill="#a78bfa" fill-opacity="0.15" />
       <circle cx="23" cy="74" r="7" stroke="#a78bfa" stroke-width="2" fill="none" />
-      <text x="48" y="72" class="al-display" font-size="13" font-weight="600" fill="#f8fafc">Python & Big Data</text>
+      <text x="48" y="72" class="al-display" font-size="13" font-weight="600" fill="#f8fafc">Python and Big Data</text>
       <text x="48" y="86" class="al-mono" font-size="10" fill="#94a3b8">Python · Hadoop · Data Pipelines</text>
 
       <!-- Row 3 -->
       <rect x="0" y="104" width="396" height="44" rx="10" fill="#141726" stroke="#ffffff" stroke-opacity="0.06" />
       <rect x="8" y="111" width="30" height="30" rx="8" fill="#f472b6" fill-opacity="0.15" />
       <path d="M17 131l6-12 6 12H17z" stroke="#f472b6" stroke-width="2" fill="none" stroke-linejoin="round" />
-      <text x="48" y="124" class="al-display" font-size="13" font-weight="600" fill="#f8fafc">CS & AI Foundations</text>
+      <text x="48" y="124" class="al-display" font-size="13" font-weight="600" fill="#f8fafc">CS and AI Foundations</text>
       <text x="48" y="138" class="al-mono" font-size="10" fill="#94a3b8">BCA @ Techno India University</text>
     </g>
   </g>
@@ -109,17 +109,17 @@
       <path d="M204 104l10 6-10 6M236 104l-10 6 10 6M212 124q8 8 16 0" stroke="#22d3ee" stroke-width="2.2" fill="none" stroke-linecap="round" />
       <rect x="34" y="182" width="372" height="30" rx="8" fill="#0d0e16" fill-opacity="0.85" />
       <text x="46" y="201" class="al-mono" font-size="11" fill="#22d3ee">01 / ANIME</text>
-      <text x="130" y="201" class="al-display" font-size="12" fill="#e2e8f0">Shonen arcs, soundtracks & visual storytelling</text>
+      <text x="130" y="201" class="al-display" font-size="12" fill="#e2e8f0">Shonen arcs, soundtracks and visual storytelling</text>
     </g>
 
-    <!-- Slide 2: Drawing & Line Art -->
+    <!-- Slide 2: Drawing and Line Art -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.32;0.35;0.64;0.67;1" dur="12s" repeatCount="indefinite" />
       <circle cx="220" cy="110" r="44" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-width="1.5" />
       <path d="M202 126l28-28 8 8-28 28-11 3 3-11z" stroke="#a78bfa" stroke-width="2.2" fill="none" stroke-linejoin="round" />
       <rect x="34" y="182" width="372" height="30" rx="8" fill="#0d0e16" fill-opacity="0.85" />
       <text x="46" y="201" class="al-mono" font-size="11" fill="#a78bfa">02 / DRAWING</text>
-      <text x="142" y="201" class="al-display" font-size="12" fill="#e2e8f0">Character sketches, clean line art & shading</text>
+      <text x="142" y="201" class="al-display" font-size="12" fill="#e2e8f0">Character sketches, clean line art and shading</text>
     </g>
 
     <!-- Slide 3: Creative Web Design -->
@@ -130,7 +130,7 @@
       <circle cx="212" cy="106" r="4" fill="#f472b6" />
       <rect x="34" y="182" width="372" height="30" rx="8" fill="#0d0e16" fill-opacity="0.85" />
       <text x="46" y="201" class="al-mono" font-size="11" fill="#f472b6">03 / DESIGN</text>
-      <text x="136" y="201" class="al-display" font-size="12" fill="#e2e8f0">Dark-mode UI experiments & motion craft</text>
+      <text x="136" y="201" class="al-display" font-size="12" fill="#e2e8f0">Dark-mode UI experiments and motion craft</text>
     </g>
 
     <!-- Three Daily Rings that Fill on Loop (Circumference = 2 * pi * 24 = 150.8) -->
