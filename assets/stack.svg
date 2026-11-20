@@ -75,7 +75,7 @@
       </g>
     </g>
 
-    <!-- Orbit 3 (Horizontal): React Planet + 2 Orbiting Tool Moons (HTML5 & CSS3) -->
+    <!-- Orbit 3 (Horizontal): React Planet + 2 Orbiting Tool Moons (HTML5 and CSS3) -->
     <!-- Minimum distance from React to Core = 66px; Moon orbit radius = 32px -> 34px guaranteed clearance -->
     <g>
       <ellipse cx="225" cy="180" rx="175" ry="66" fill="none" stroke="#f472b6" stroke-opacity="0.32" />
@@ -119,9 +119,9 @@
     <text x="225" y="189" text-anchor="middle" class="st-mono" font-size="8" fill="#cbd5e1">STACK</text>
   </g>
 
-  <!-- RIGHT: Grouped Chip Grid (Frontend / Motion & 3D / Data / AI) -->
+  <!-- RIGHT: Grouped Chip Grid (Frontend / Motion and 3D / Data / AI) -->
   <g transform="translate(455, 28)">
-    <text x="0" y="14" class="st-display" font-size="18" font-weight="700" fill="#f8fafc">Stack & Tooling</text>
+    <text x="0" y="14" class="st-display" font-size="18" font-weight="700" fill="#f8fafc">Stack and Tooling</text>
     <text x="0" y="32" class="st-mono" font-size="11" fill="#94a3b8">SEQUENTIAL AURORA CHIP MATRIX</text>
 
     <!-- Group 1: Frontend -->
@@ -140,8 +140,8 @@
       <text x="363" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">Web Design</text>
     </g>
 
-    <!-- Group 2: Motion & 3D -->
-    <text x="0" y="130" class="st-mono" font-size="10.5" fill="#a78bfa">MOTION & 3D</text>
+    <!-- Group 2: Motion and 3D -->
+    <text x="0" y="130" class="st-mono" font-size="10.5" fill="#a78bfa">MOTION and 3D</text>
     <g transform="translate(0, 138)">
       <rect x="0" y="0" width="128" height="32" rx="8" fill="#141829" class="st-chip" style="animation-delay:1.6s" />
       <text x="64" y="20" text-anchor="middle" class="st-mono" font-size="11.5" fill="#f8fafc">SVG + SMIL</text>
