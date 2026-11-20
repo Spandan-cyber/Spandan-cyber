@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg?v=4" alt="Spandan Das Hero" width="100%" />
+<img src="./assets/hero.svg?v=5" alt="Spandan Das Hero" width="100%" />
 
 <br/>
 
