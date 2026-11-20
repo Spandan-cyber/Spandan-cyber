@@ -32,11 +32,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-view.svg?v=2" />
   <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-night-view.svg?v=2" />
-  <img alt="3D Contributions Night View" src="./profile-3d-contrib/profile-night-view.svg?v=1" width="100%" />
+  <img alt="3D Contributions Night View" src="./profile-3d-contrib/profile-night-view.svg?v=2" width="100%" />
 </picture>
 
 <br/>
 
-<img src="./assets/connect.svg?v=1" alt="Connect with Spandan Das" width="100%" />
+<img src="./assets/connect.svg?v=2" alt="Connect with Spandan Das" width="100%" />
 
 </div>
